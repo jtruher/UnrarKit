@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/abbeycode/UnrarKit"
   s.author           = { "Dov Frankel" => "dov@abbey-code.com" }
   s.social_media_url = "https://twitter.com/dovfrankel"
-  s.source           = { :git => "https://github.com/abbeycode/UnrarKit.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/jtruher/UnrarKit.git", :branch => "v2.10" }
   s.ios.deployment_target = "12.0"
   s.osx.deployment_target = "10.13"
   s.requires_arc = "Classes/**/*"
